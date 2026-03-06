@@ -1,0 +1,5 @@
+binary/
+.cache
+.direnv
+compile_commands.json
+*.org
