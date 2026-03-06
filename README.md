@@ -1,5 +1,6 @@
 # Report
 | UFID | 45705087      |
+
 | Name | Alexander Dao |
 
 ## Variables
@@ -10,8 +11,11 @@ r = sequence of requests
 
 ## Question 1
 |        | k  | m      | max_int | FIFO  | %  | LRU   | %  | OTFF  | %  |
+
 | test 1 | 5  | 50     | 10      | 30    | 60 | 29    | 58 | 18    | 36 |
+
 | test 2 | 50 | 500    | 100     | 282   | 56 | 279   | 56 | 164   | 33 |
+
 | test 3 | 50 | 500000 | 100     | 98566 | 20 | 98013 | 20 | 21839 | 4  |
 
 1) OPTFF has the lowest miss chance
